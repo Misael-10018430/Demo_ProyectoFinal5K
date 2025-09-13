@@ -47,8 +47,8 @@
         .contenedor_img{
             width: 100%;
             max-width: 1024px; 
-             margin: 0 auto;
-            text-align: center;
+            margin: 0 auto;
+            margin: 2rem auto; 
         }
         .container_img img{
             width: 100%;
