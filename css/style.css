@@ -55,4 +55,11 @@
             height: auto;
             display: block;
         }
+        #ContenedorPrincipal{
+            padding: 1rem;  
+            max-width: 1024px;
+            margin: 0 auto;
+            background-image: url('../img/imagen2.png') ;
+        }
+        
         
