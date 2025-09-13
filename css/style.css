@@ -1,5 +1,5 @@
  body{
-            margin: 0;
+            margin: 0 auto;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             box-sizing: border-box;
         }
@@ -12,7 +12,7 @@
             list-style-type: none;
             padding: 0;
             display: flex;
-            margin: 0;
+            margin: 0 auto;
             justify-content: flex-end;
             align-items: center;
         }
@@ -56,9 +56,13 @@
             display: block;
         }
         #ContenedorPrincipal{
-            padding: 1rem;  
             max-width: 1024px;
-            margin: 0 auto;
+            margin: 2rem auto; 
+            padding: 2rem;
+            border-radius: 10px;
+            border-color: blue;
+            border-style: solid;
+            box-shadow: 5px 5px 21px rgba(0,0,0,0.76); 
             background-image: url('../img/imagen2.png') ;
         }
 
