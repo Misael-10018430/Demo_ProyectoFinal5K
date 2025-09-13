@@ -4,54 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-       body{
-            margin: 0;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            box-sizing: border-box;
-        }
-        nav{
-            background-color: rgb(34, 31, 71);
-            padding:1rem;
-            
-        }
-        nav ul{
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            margin: 0;
-            justify-content: flex-end;
-            align-items: center;
-        }
-        nav li{
-            margin: 0 1rem;
-        }
-        nav a{
-            color: aliceblue;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.2rem;
-            padding: 0.5rem 1rem;
-            transition: bacground-color 0,3s ease;
-        }
-        nav a:hover{
-            background-color: blueviolet;
-            border-radius: 5px;
-        }
-        @media (max-width:600px){
-            nav ul{
-                flex-direction: column;
-                align-items:flex-start ;
-
-            }
-            nav li{
-                margin: 0.5rem 0;
-                width: 100%; 
-                text-align: left;
-
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
